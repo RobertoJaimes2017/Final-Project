@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>eMarket</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <!--                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> -->
+        <a class="navbar-brand" href="#">eMarket</a>
+        <div id="tfheader">
+          <!--     <form id="tfnewsearch" method="get" action="http://www.mywebsite.com">
+        <input type="text" class="tftextinput" id="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+    </form>
+<div class="tfclear"></div>
+</div>
+ -->
+          <!-- <script>
+    var a = document.getElementById('tfnewsearch');
+    a.addEventListener('submit',function(e) {
+        e.preventDefault();
+        var b = document.getElementById('tftextinput').value;
+        window.location.href = 'http://mywebsite.com/'+b;
+
+    });
+
+</script>   -->
+          <!--           </div> -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <!--             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div> -->
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-2">
+        <!--                 <p class="lead">Shop Name</p> -->
+        <!--                  <div class="list-group">
+                    <a href="#" class="list-group-item">Category 1</a>
+                    <a href="#" class="list-group-item">Category 2</a>
+                    <a href="#" class="list-group-item">Category 3</a>
+                </div> -->
+      </div>
+
+      <div class="col-md-9">
+
+        <div class="row carousel-holder">
+
+          <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img class="slide-image" src="https://i.ytimg.com/vi/xCCXCJO4FDE/maxresdefault.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img class="slide-image" src="https://img.grouponcdn.com/deal/2YoyNk9AmqMXoRwVA88kqNYNgB52/2Y-1500x900/v1/c700x420.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img class="slide-image" src="http://s3.amazonaws.com/product-images.imshopping.com/nimblebuy/glow-in-the-dark-fidget-spinner-12965492-regular.jpg" alt="">
+                </div>
+                <div class="item">
+                  <img class="slide-image" src="https://ksr-ugc.imgix.net/assets/015/139/129/96892c122b3a6bb688fc53c3a087659a_original.jpg?w=1552&h=873&fit=fill&bg=000000&v=1490156688&auto=format&q=92&s=fc56a9f4917b07d442e4cbe6f7f03e4b" alt="">
+                </div>
+
+                <div class="item">
+                  <img class="slide-image" src="http://cdn.newsday.com/polopoly_fs/1.13359235.1491315004!/httpImage/image.jpeg_gen/derivatives/display_600/image.jpeg" alt="">
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <form action="/click" method="POST">
+
+
+          <div class="row">
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="http://www.asseenontvandbeyond.com/assets/images/fidget-spinner-black.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$4.99</h4>
+                  <h4><input type="submit" value="Black Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like every other spinner, but just in a black color.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">15 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="http://www.asseenontvandbeyond.com/assets/images/fidget-spinner-green.png" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$4.99</h4>
+                  <h4><input type="submit" value="Green Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like any other spinner, just in a color of green.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">12 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="http://www.asseenontvandbeyond.com/assets/images/fidget-spinner-blue.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$4.99</h4>
+                  <h4><input type="submit" value="Blue Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like any other sipnner, just in a color of blue.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">31 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="http://www.asseenontvandbeyond.com/assets/images/fidget-spinner-red.JPG" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$4.99</h4>
+                  <h4><input type="submit" value="Red Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like any other spinner, just in a color of red.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">6 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="https://sc01.alicdn.com/kf/HTB1Bqt8QXXXXXXuXVXX760XFXXXp/finger-gyro-fidget-hand-spinner-light-spinner.png" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$10.99</h4>
+                  <h4><input type="submit" value="Light up Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is just like any other spinner, but there is something cool ahout this one. It lights up.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61DLfO0YVVL._SY355_.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$15.99</h4>
+                  <h4><input type="submit" value="Aluminum Spinner" name="spinner">
+                                </h4>
+                  <p>This spineer is like any other spinner, but it is made out of anodized aluminum which gives it the rainbow color.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">18 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="https://cdn.learningexpress.com/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/F/i/Fidget_Spinner.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$25.99</h4>
+                  <h4><input type="submit" value="Whole package" name="spinner">
+                                </h4>
+                  <p>These spinners are like anyother spinners, but it just comes in a bundle .<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">15 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="http://static1.squarespace.com/static/58818338b8a79b4dcb065fbb/58913b626a4963f35f9093bb/58c80ce3ff7c500377df496b/1494092649318/?format=1000w" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$10.99</h4>
+                  <h4><input type="submit" value="Aluminum Spinner 2.0" name="spinner">
+                                </h4>
+                  <p>This spinner is like every other spinner, but it comes in anodized aluminum.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">15 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="https://all3dp.com/app/uploads/2017/04/714iVPML8XL._SL1092_-1080x1080.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$4.99</h4>
+                  <h4><input type="submit" value="Glow in dark Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like every other spinner, it just glows in the dark.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">15 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="https://pickedreviews.com/wp-content/uploads/61LZ8dM1ONL._SL1001_.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$5.99</h4>
+                  <h4><input type="submit" value="Copper Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like every other spinner, but just in a copper color.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">15 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="https://sportsblue.com.au/wp-content/uploads/2017/05/Alloy-golden.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$6.99</h4>
+                  <h4><input type="submit" value="Gold Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like every other spinner, but its just in a gold color.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">15 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 col-md-4">
+              <div class="thumbnail">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81W0dtgWp6L._SX355_.jpg" alt="">
+                <div class="caption">
+                  <h4 class="pull-right">$4.99</h4>
+                  <h4><input type="submit" value="Black/Gold Spinner" name="spinner">
+                                </h4>
+                  <p>This spinner is like every other spinner, but just in a black and gold color.<a target="_blank" href="https://www.amazon.com/">Amazon - https://www.amazon.com/</a>.</p>
+                </div>
+                <div class="ratings">
+                  <p class="pull-right">15 reviews</p>
+                  <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+    </div>
+
+  </div>
+    <input type="submit" value="submit">
+  </form>
+  <!-- /.container -->
+
+  <div class="container">
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; eMarket 2017</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
